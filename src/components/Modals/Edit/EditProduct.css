@@ -1,0 +1,77 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4); /* پس‌زمینه تیره شفاف */
+    backdrop-filter: blur(3px); /* بلور پس‌زمینه */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* استایل مدال */
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* استایل عنوان مدال */
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* استایل فرم */
+  .modal-content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-content label {
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .modal-content input {
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    background-color: #F2F2F2;
+    border: none;
+    width: 300px;
+    color: #282828;
+  }
+  
+  /* استایل دکمه‌ها */
+  .modal-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+  }
+  
+  .cancel-btn {
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+  }
+  
+  .save-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+  }

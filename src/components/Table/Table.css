@@ -1,0 +1,26 @@
+table{
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 5px;
+    overflow: hidden;
+    border-collapse: collapse;
+}
+thead{
+    background-color: #eae9e9;
+    line-height: 60px;
+}
+button{
+    border: none;
+    background: none;
+    margin: 10px auto;
+}
+tr{
+    border-bottom: 1px solid #eae9e9 ;
+}
+button{
+    padding-inline: 10px;
+}
+button:hover{
+    opacity: 0.7;
+}
